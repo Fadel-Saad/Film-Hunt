@@ -53,7 +53,7 @@ export default function App() {
         try {
           setLoader(true);
           setError("");
-          const res = await fetch(`http://www.omdbapi.com/?apikey=${App_key}&s=${query}`, {
+          const res = await fetch(`https://www.omdbapi.com/?apikey=${App_key}&s=${query}`, {
             signal: controller.signal,
           });
           // the condition is after fetching data + !res.ok checks if there
