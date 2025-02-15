@@ -1,8 +1,17 @@
-# React + Vite
+The website is made using ReactJS + vanilla CSS.<br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features and screenshots are listed below.<br>
 
-Currently, two official plugins are available:
+- Lets users search for any movie and view its details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Rate movies and add/delete movies to/from a watched list<br>
+
+- Watched list is saved to browser's local storage so it doesn't reset<br>
+after exiting or refreshing<br>
+
+- View a summary of statistics for all watched movies<br>
+
+![Film Hunt sc1](https://github.com/user-attachments/assets/10e515a1-c21c-40fe-a0dc-309e78256225)
+
+![Film Hunt sc2](https://github.com/user-attachments/assets/3ef7c129-325d-4767-b92c-2595a5bfd050)
+
